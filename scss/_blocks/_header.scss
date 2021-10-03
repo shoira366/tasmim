@@ -1,0 +1,20 @@
+.header {
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &--item:last-child &--link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 100.52%;
+            color: #FFFFFF;
+
+
+            background: #ED111D;
+            border-radius: 5px;
+            padding: 14px 30px;
+        }
+    }
+}

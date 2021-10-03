@@ -1,0 +1,10 @@
+.partners{
+    padding-top: 22px;
+    padding-bottom: 35px;
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 14px;
+    }
+}
