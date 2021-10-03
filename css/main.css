@@ -166,6 +166,14 @@ button {
   margin-bottom: 142px;
 }
 
+.services__menu--item:nth-child(2) {
+  opacity: 0.3;
+}
+
+.services__menu--item:nth-child(3) {
+  opacity: 0.3;
+}
+
 .services_btn {
   font-style: normal;
   font-weight: bold;
@@ -323,6 +331,7 @@ button {
 
 .about-collegue {
   display: flex;
+  align-items: center;
 }
 
 .first-member {
@@ -353,6 +362,11 @@ button {
   font-size: 26px;
   line-height: 41px;
   color: #FFFFFF;
+}
+
+.right_vector {
+  transform: rotate(180deg);
+  margin-right: 20px;
 }
 
 .partners {

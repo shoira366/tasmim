@@ -31,6 +31,12 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 142px;
+        &--item:nth-child(2){
+            opacity: 0.3;
+        }
+        &--item:nth-child(3){
+            opacity: 0.3;
+        }
     }
 
     &_btn {
@@ -192,6 +198,7 @@
 
 .about-collegue {
     display: flex;
+    align-items: center;
 }
 
 .first-member {
@@ -222,4 +229,8 @@
     font-size: 26px;
     line-height: 41px;
     color: #FFFFFF;
+}
+.right_vector{
+    transform: rotate(180deg);
+    margin-right: 20px;
 }
