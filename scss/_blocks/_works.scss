@@ -1,0 +1,173 @@
+.works {
+    &_box {
+        margin-bottom: 117px;
+
+        &--link {
+            display: flex;
+            align-items: center;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 100px;
+
+            &::before {
+                content: "";
+                width: 850px;
+                height: 5px;
+                background-color: #000;
+                display: inline-block;
+                margin-right: 21px;
+            }
+
+            &::after {
+                content: "";
+                width: 25px;
+                height: 50px;
+                display: inline-block;
+
+                background-image: url('../images/vector.svg');
+                background-repeat: no-repeat;
+                background-size: 25px 50px;
+                margin-left: 18px;
+            }
+        }
+
+        &--linksec {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #000000;
+
+            &::before {
+                content: "";
+                width: 25px;
+                height: 50px;
+                display: inline-block;
+
+                background-image: url('../images/vector.svg');
+                background-repeat: no-repeat;
+                background-size: 25px 50px;
+                transform: rotate(-180deg);
+                margin-right: 14px;
+            }
+
+            &::after {
+                content: "";
+                width: 850px;
+                height: 5px;
+                background-color: #000;
+                display: inline-block;
+                margin-left: 25px;
+            }
+        }
+    }
+
+    &_mini {
+        &-box {
+            margin-top: 73px;
+            margin-bottom: 119px;
+        }
+
+        &-title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 141%;
+            text-align: right;
+            color: #000000;
+            margin-bottom: 5px;
+        }
+
+        &-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 133%;
+            text-align: right;
+            color: #000000;
+            width: 554px;
+            margin-left: auto;
+        }
+    }
+
+    &_sec {
+        &-box {
+            margin-top: 80px;
+            margin-bottom: 70px;
+        }
+
+        &-title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 141%;
+            text-align: left;
+            color: #000000;
+            margin-bottom: 5px;
+        }
+
+        &-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 133%;
+            color: #000000;
+            width: 554px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        &--item:nth-child(2n+1) {
+            margin-right: 125px;
+        }
+
+        &--title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 36px;
+            color: #000000;
+            width: 749px;
+            margin-bottom: 24px;
+        }
+
+        &--text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 28px;
+            color: #000000;
+            margin-bottom: 28px;
+        }
+    }
+}
+
+.worksfirst-text {
+    width: 798px;
+}
+
+.workssecond-text {
+    width: 766px;
+    margin-top: 75px;
+}
+
+.worksthird-text {
+    width: 780px;
+}
+
+.worksfourth-text {
+    width: 735px;
+    margin-top: 50px;
+}
