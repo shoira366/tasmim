@@ -1,0 +1,60 @@
+.main-section {
+    margin-bottom: 86px;
+    &_box {
+        position: relative;
+        height: 887px;
+        background-image: url('../images/ourgroup.png');
+        background-repeat: no-repeat;
+        background-size: 1330px 887px;
+        background-position: center;
+        margin-bottom: 58px;
+    }
+
+    &_span {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 200px;
+        line-height: 135%;
+        text-align: center;
+        text-transform: uppercase;
+        border: 5px solid #FFFFFF;
+        margin-left: 90px;
+    }
+
+    &_title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 130%;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+
+    &_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+        color: #000000;
+        width: 884px;
+        margin: 0 auto;
+    }
+}
+
+.smart {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    // color: #FFFFFF;
+    width: 400px;
+    margin-left: auto;
+    position: absolute;
+    right: 7px;
+    bottom: 11px;
+    // color: transparent;
+}
